@@ -1,0 +1,14 @@
+Design Patterns - A way of reusing other people's knowledge and experience
+
+
+Creational Design Patterns
+- A set of design patterns to help manage the complexity of growing programming logic.
+  Two Main Themes
+  - Encapsulate knowledge about which concrete class should be used
+  - Conceal how objects are created
+
+Builder Patterns
+- Fixes
+  - large constructors where you have to pass in lots of different parameters
+- About
+  - Separate class that's used to construct the object using the fields we want - Builder.
