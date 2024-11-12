@@ -1,6 +1,4 @@
-
 import java.time.LocalDate;
-
 
 public class SalesLeadTracker {
     public static void main(String[] args) throws IllegalAccessException{
