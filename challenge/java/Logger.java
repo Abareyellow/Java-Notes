@@ -1,7 +1,14 @@
+public enum Logger {
 
-public class Logger {
+    INSTANCE;
+
+    private Logger() {}
+
+    public static Logger getInstance() {
+        return INSTANCE;
+    }
+
     void log(String logMessage) {
         System.out.println(logMessage);
     }
-
 }
