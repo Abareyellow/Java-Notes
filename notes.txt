@@ -12,3 +12,14 @@ Builder Patterns
   - large constructors where you have to pass in lots of different parameters
 - About
   - Separate class that's used to construct the object using the fields we want - Builder.
+
+Singleton Patterns
+- Antipattern 
+- There can be one instance of a class
+- Use Cases
+  - Connection to a database
+  - Access to configuration files 
+  - Access to hardware resources
+  - 
+- The Singleton patterns violates the single responsibility principle.
+- Singleton can make code difficult to test.
